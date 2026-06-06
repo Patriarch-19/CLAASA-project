@@ -24,7 +24,7 @@ while True:
     break
   elif ask == yn2:
     # allow the user to continue typing; update text1 with additional input
-    more = input("Continue typing: ")
+    more = input("Continue typing: ").split()
     text1 += more
     print(done)
   else:
@@ -54,7 +54,7 @@ while True:
     break
   elif ask == yn2:
     # allow the user to continue typing; update text2 with additional input
-    more = input("Continue typing: ")
+    more = input("Continue typing: ").split()
     text2 += more
     print(done)
   else:
