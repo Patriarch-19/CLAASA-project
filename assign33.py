@@ -29,6 +29,7 @@ while True:
     print(done)
   else:
     print("Unavailable response")
+    print(done)
     
 # def on_typing(text):
 #     keyboard.on_press(on_typing)
@@ -59,6 +60,7 @@ while True:
     print(done)
   else:
     print("Unavailable response")
+    print(done)
     
 if len(text1) == len(text2):
   print("Lengths match.")
